@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Center Wi-Fi Arc Outer -->
+    <path
+        android:pathData="M30,42 C43,30 65,30 78,42"
+        android:strokeWidth="5"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round" />
+
+    <!-- Center Wi-Fi Arc Mid -->
+    <path
+        android:pathData="M38,52 C47,44 61,44 70,52"
+        android:strokeWidth="5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Center Wi-Fi Arc Inner -->
+    <path
+        android:pathData="M46,62 C51,57 57,57 62,62"
+        android:strokeWidth="5"
+        android:strokeColor="#76FF03"
+        android:strokeLineCap="round" />
+
+    <!-- Center Dot / Transmitter -->
+    <path
+        android:pathData="M54,72 A3.5,3.5 0 1,1 54,65 A3.5,3.5 0 1,1 54,72 Z"
+        android:fillColor="#00E676" />
+
+    <!-- Cellular Bars in lower corner -->
+    <path
+        android:pathData="M24,82 L28,82 L28,78 L24,78 Z"
+        android:fillColor="#546E7A" />
+    <path
+        android:pathData="M31,82 L35,82 L35,74 L31,74 Z"
+        android:fillColor="#78909C" />
+    <path
+        android:pathData="M38,82 L42,82 L42,70 L38,70 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M45,82 L49,82 L49,66 L45,66 Z"
+        android:fillColor="#00E676" />
+</vector>
